@@ -1,0 +1,80 @@
+#background-image {
+    background-image: url('./Pictures/background-mountain.JPG');
+    background-repeat: no-repeat;  
+    background-size: cover; 
+}
+
+button {
+    display: inline-flex;
+    font-size: 10px;
+    font-family: Helvetica;
+    color:white;
+    background-image: url('./Pictures/clyde.JPG');
+    background-size: cover;
+    width: 100px;
+    height: 75px;
+    margin: 0px 50px;
+    text-align: top;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    display: block;
+    max-width:450px;
+    max-height:350px;
+    width: auto;
+    height: auto;
+    border: 2px solid rgb(90, 61, 29);
+    margin: 20px 10px 0px;
+    float: left;
+    
+  }
+
+  
+#description {
+    padding: 20px 20px;
+    vertical-align: top;
+}
+
+#date {
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: black;
+    background-color: rgba(255, 248, 220, 0.719);
+    text-align: center;
+    
+}
+
+
+/* title of the main page/page for each bird*/
+h1 {
+    text-align: center;
+}
+
+/*my name on main page/latin names for each bird?*/
+h2 {
+    text-align: center;
+}
+
+ul {
+    columns: 3;
+}
+
+a {
+    background-color: rgba(26, 26, 31, 0.651);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+a:hover {
+    color:cornflowerblue;
+}
+
+li {
+    padding: 10px 0px;
+}
