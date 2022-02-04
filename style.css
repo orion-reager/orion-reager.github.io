@@ -60,22 +60,25 @@ img {
     
 }
 
-/* title of the main page/page for each bird*/
-h1 {
+/* titles*/
+h1, h2, h3 {
     text-align: center;
 }
 
-/*my name on main page/latin names for each bird?*/
-h2 {
-    text-align: center;
-}
-
-/*list of birds on main page*/
+/*list of families on main page*/
 ul {
     display: inline-block;
     columns: 3;
     list-style-type: none;
     text-align: center;
+}
+
+/*list of birds in each family */
+.birds {
+    display: table;
+    columns: 1;
+    margin: auto auto;
+    padding: 50px 50px;
 }
 
 /*list elements*/
@@ -85,7 +88,6 @@ li {
 
 /*links in a list (will prevent black bar over image links)*/
 li a {
-    /*background-color: rgba(26, 26, 31, 0.651);*/
     background-image: url(Pictures/clyde.JPG);
     color: rgb(255, 255, 255);
     font-size: 20px;
@@ -93,8 +95,17 @@ li a {
     padding: 1px 2px;
 }
 
+/*links on the home page that don't redirect to a family */
+#nofam {
+    background-image: url(Pictures/button-background.JPG);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 1px 2px;
+}
+
 /*links on hover*/
-a:hover {
+a:hover, #nofam:hover {
     color:cornflowerblue;
 }
 
